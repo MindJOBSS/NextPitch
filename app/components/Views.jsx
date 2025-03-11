@@ -18,7 +18,7 @@ const Views = async ({ id }) => {
   );
 
   return (
-    <div className="toast toast-bottom toast-end" >
+    <div className="toast toast-bottom toast-start" >
       <div className="badge badge-outline badge-info badge-lg font-extrabold" >
         <div className="status status-md status-info" ></div>
         views: {totalViews}
